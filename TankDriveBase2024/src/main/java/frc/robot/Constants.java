@@ -16,8 +16,8 @@ import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
  */
 public final class Constants {
   //Drive Motors
-  public static final int[] MOTOR_PORTS_LEFT = {1,5};
-  public static final int[] MOTOR_PORTS_RIGHT = {2,4};
+  public static final int[] MOTOR_PORTS_LEFT = {1,2};
+  public static final int[] MOTOR_PORTS_RIGHT = {4,5};
   public static final int CONTROLLER_PORT = 0;
   public static final double JOYSTICK_DEADZONE = 0.05;
 }

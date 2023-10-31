@@ -4,13 +4,12 @@ import com.ctre.phoenix.motorcontrol.can.WPI_VictorSPX;
 
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants;
-import frc.robot.Constants.*;
 
 public class DriveTrain extends SubsystemBase{
     private WPI_VictorSPX victorLeft2, victorRight2;
     private WPI_VictorSPX victorLeft1, victorRight1;
 
-    public void DriveSubsystem(){
+    public DriveTrain(){
         victorLeft1 = new WPI_VictorSPX(Constants.MOTOR_PORTS_LEFT[0]);
         victorRight1 = new WPI_VictorSPX(Constants.MOTOR_PORTS_RIGHT[0]);
         victorLeft2 = new WPI_VictorSPX(Constants.MOTOR_PORTS_LEFT[1]);
